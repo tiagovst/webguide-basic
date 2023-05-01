@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
-:root {
+/* :root {
     --container-bg: #182527;
     --container-border-bg: black;
     --top-bg-color: #182527;
     --top-font-color: #2bd899;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -32,7 +32,7 @@ h2 {
 }
 
 nav {
-    background-color: var(--top-bg-color);
+    background-color: #182527;
     padding: 10px;
     border-bottom: solid;
     border-width: .5px;
@@ -40,7 +40,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--top-font-color);
+    color: #2bd899;
     font-weight: bold;
     padding-right: 10px;
 }
@@ -83,7 +83,7 @@ body {
 
 #repository {
     text-decoration: none;
-    color: var(--top-font-color);
+    color: #2bd899;
 }
 
 #container {
@@ -91,11 +91,11 @@ body {
     width: 100%;
     text-align: center;
     padding: 10px;
-    background-color: var(--container-bg);
+    background-color: #182527;
     border-top: solid;
     border-bottom: solid;
     border-width: .5px;
-    border-color: var(--container-border-bg);
+    border-color: black;
 }
 
 #container img {
