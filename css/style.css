@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
+:root {
+    --container-bg: #182527;
+    --container-border-bg: black;
+    --top-bg-color: #182527;
+    --top-font-color: #2bd899;
+}
+
 * {
     box-sizing: border-box;
 }
 
 #header {
     text-align: center;
+}
+
+#tittle {
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 0px;
+    display: block;
+    border-top: solid;
+    border-width: .5px;
 }
 
 h2 {
@@ -16,17 +32,16 @@ h2 {
 }
 
 nav {
-    background-color: rgb(248, 248, 248);
+    background-color: var(--top-bg-color);
     padding: 10px;
-    border-top: solid;
     border-bottom: solid;
     border-width: .5px;
-    border-color: rgb(218, 218, 218);
 }
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: var(--top-font-color);
+    font-weight: bold;
     padding-right: 10px;
 }
 
@@ -34,7 +49,7 @@ p {
     font-size: 14pt;
 }
 
-.mainTitle {
+/* .mainTitle {
     height: 120px;
     margin: 0;
     font-size: 30pt;
@@ -43,7 +58,7 @@ p {
     justify-content: center;
     display: flex;
     background-color: rgb(42, 165, 120);
-}
+} */
 
 .navText img {
     padding-left: 5px;
@@ -57,6 +72,7 @@ p {
 
 main {
     text-align: justify;
+    padding-bottom: 50px;
 }
   
 body {
@@ -65,9 +81,9 @@ body {
     overflow-x: hidden;
 }
 
-#text {
+#repository {
     text-decoration: none;
-    color: #000;
+    color: var(--top-font-color);
 }
 
 #container {
@@ -75,14 +91,20 @@ body {
     width: 100%;
     text-align: center;
     padding: 10px;
-    background-color: rgb(248, 248, 248);
+    background-color: var(--container-bg);
     border-top: solid;
     border-bottom: solid;
     border-width: .5px;
-    border-color: rgb(218, 218, 218)
+    border-color: var(--container-border-bg);
 }
 
 #container img {
     vertical-align: middle;
     width: 30px;
+}
+
+@media (min-width: 1920px) {
+    #tittle {
+        width: 100%;
+    }
 }
