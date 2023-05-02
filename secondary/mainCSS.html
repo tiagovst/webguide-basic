@@ -7,8 +7,85 @@
     <title>CSS</title>
 
     <link rel="shortcut icon" href="../images/css3-plain.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 <body>
+
+    <section id="header">
+        <header>
+            <img id="tittle" src="../images/Tutorial__HTML_e_CSS.png" alt="tittle">
+            <nav>
+                <a href="mainHTML.html" class="navText" >HTML5 <img src="../images/html5-plain.svg" width="20"/></a>
+                <a href="mainCSS.html" class="navText" >CSS3 <img src="../images/css3-plain.svg" width="20"/></a>
+                <a href="../index.html" class="navText" >HOME <img src="../images/309113.svg" width="20"/></a>
+            </nav>
+        </header>
+    </section>
+
+    <!--
+    <section id="container_title">
+            <h1>Cascating Style sheets(CSS)</h1>
+    </section>
+    -->
+
+    <main>
+        <section id="content">
+            <h2>O que é CSS?</h2>
+            <p>
+                Como dito previamente, CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata, em português)
+                 e é uma linguagem de estilo utilizada para controlar a aparência e o layout de páginas da web.
+            </p>
+            <p>Ao pensarmos em um site como uma construção física, como um prédio, ou uma casa, por exemplo,
+                se pode pensar no HTML como a estrutura "vazia", a fundação da obra, enquanto o CSS seria a decoração, ou 
+                um jeito de transformar aquela fundação em algo mais agradável e intuitivo.
+            </p>
+            <p>Existem três maneiras para estilizar um elemento HTML com propriedades do CSS.
+                <ul>
+                    <li>1. Inline CSS</li>
+                    <li>2. Internal CSS </li>
+                    <li>3. External CSS </li>
+                </ul>
+            </p>
+
+            <p>Imaginemos o seguinte cenário, é desejado trocar a cor e a fonte do elemento "h2", com a maneira "inline".
+                Esta mudança, como o nome sugere, ocorreria na linha do elemento, como podemos observar na imagem abaixo
+            </p>
+            <img src="../images/Inline_CSS.png" alt="CSS_Inline">
+            
+            <p>O Internal CSS, também como o nome sugere, aplica o CSS de maneira interna ao documento HTML, para isso se cria no cabeçalho,
+                um bloco de "comandos" CSS, que necessitam estar rodeados pela tag "style", que possui a estilização desejada. Veja melhor
+                com um exemplo do cenário anterior, porém com o internal CSS.
+            </p>
+            <img src="../images/Internal_CSS.png" alt="CSS_Internal">
+
+            <p>O mais indicad, no entanto, principalmente para projetos grandes, é o external CSS. Onde se cria um arquivo css no próprio projeto,
+                que irá conter as estilizações desejadas nos documentos html. Para isso além da criação deste documento, é necessário referênciar o mesmo, nos
+                arquivos HTML que o usarão. Seguem as fotos do arquivo e da referência, consecutivamente.
+            </p>
+            <img src="../images/External_CSS.png" alt="CSS_External">
+            <img src="../images/External_CSS_Link.png" alt="CSS_Externa_Linkl">
+
+
+        </section>
+
+
+
+    </main>
+
+    <section id="content">
+        <article></article>
+
+    </section>
     
+
+    <footer id="container">
+        <span>
+            <a href="https://github.com/tiagovst/webguide-basic" id="repository">Repositório no GitHub 
+            <img src="../images/icon-github.png" alt="icone"></a>
+        </span>        
+    </footer>
+
+
 </body>
 </html>
