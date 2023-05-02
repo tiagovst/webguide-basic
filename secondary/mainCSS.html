@@ -49,7 +49,7 @@
             </p>
 
             <p>Imaginemos o seguinte cenário, é desejado trocar a cor e a fonte do elemento "h2", com a maneira "inline".
-                Esta mudança, como o nome sugere, ocorreria na linha do elemento, como podemos observar na imagem abaixo
+                Esta mudança, como o nome sugere, ocorreria na linha do elemento, como podemos observar na imagem abaixo:
             </p>
             <img src="../images/Inline_CSS.png" alt="CSS_Inline">
             
@@ -59,13 +59,76 @@
             </p>
             <img src="../images/Internal_CSS.png" alt="CSS_Internal">
 
-            <p>O mais indicad, no entanto, principalmente para projetos grandes, é o external CSS. Onde se cria um arquivo css no próprio projeto,
+            <p>O mais indicado, no entanto, principalmente para projetos grandes, é o external CSS. Onde se cria um arquivo css no próprio projeto,
                 que irá conter as estilizações desejadas nos documentos html. Para isso além da criação deste documento, é necessário referênciar o mesmo, nos
                 arquivos HTML que o usarão. Seguem as fotos do arquivo e da referência, consecutivamente.
             </p>
             <img src="../images/External_CSS.png" alt="CSS_External">
             <img src="../images/External_CSS_Link.png" alt="CSS_Externa_Link">
 
+            <h2 id="content_division">Some CSS components</h2>
+
+            <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h3>Fonts e colors</h3>
+            <p>Para mudar a fonte de determinado elemento, alteramos a propriedade "font-family" e passamos a fonte desejada. Outras propriedades interessantes
+                são o tamanho da fonte, que pode ser alterado com "font-size" e seu estilo, que pode ser alterado com "font-style".</p>
+            <p>Para mudar a cor é mais símples, alteramos a propriedade "color", passando como parâmetro uma cor por nome, valor rgb, ou hexadecimal.</p>
+            <p>Alteremos por exemplo a frase "Frase teste" com a seguinte estilização:</p>
+            <img src="../images/Fons_N_Colors.png" alt="Fons_N_Colors.png"> 
+            <p id="ex_fonte_cor"> Frase teste</p>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h3 id="content_division">Borders</h3>
+            <p>Os elementos html possuem como opção padrão de borda, a opção "none". Para modificá-la, alteramos a prorpiedade "border-style".
+                Outras coisas que podemos fazer com a borda, são: mudar sua curvatura, sua espessura e sua distância relativa ao conteúdo, por exemplo.
+                Observemos a seguinte estrofe criada pelo chatGPT à respeito do CSS com as seguintes configurações de borda:
+            </p>
+            <img src="../images/border_ex.png" alt="border_ex.png">
+
+            <p id="border_example">No mundo virtual, o CSS é o herói,<br>
+                Com estilos e cores, ele dá brilho, <br>
+                Das margens ao posicionamento, <br>
+                Deixa o layout com encantamento.</p>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h3 id="content_division">Background</h3>
+            <p>Quanto ao "fundo"/background, nós também conseguimos alterar algumas de suas propriedades, como sua cor, seu tamanho e posição, por exemplo.</p>
+            <p>Alteremos a mesma estrofe anterior, porém com essas configurações de background:</p>
+            <img src="../images/background_e.png" alt="Background_e.png"> 
+            
+            <p id="background_ex"> No mundo virtual, o CSS é o herói,<br>
+                Com estilos e cores, ele dá brilho, <br>
+                Das margens ao posicionamento, <br>
+                Deixa o layout com encantamento.</p>
+        
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+            <h3 id="content_division">Padding</h3>
+            <p>A propriedade "Padding" já foi demonstrada previamente ao se falar de borders e background, mas sobre o que exatamente é responsável?</p>
+            <p>Bom, a propriedade "padding" diz respeito à distância de uma propriedade ao elemento, or exemplo, a distância entre a borda e o texto, ou entre
+                o background e o texto. Podemos alterar todas as distâncias. Observe a mesma estrofe com estas configurações de padding em seu background.
+            </p>
+            <img src="../images/padding_e.png" alt="Background_e.png"> 
+
+            <p id="padding_ex"> No mundo virtual, o CSS é o herói,<br>
+                Com estilos e cores, ele dá brilho, <br>
+                Das margens ao posicionamento, <br>
+                Deixa o layout com encantamento.</p>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+            <h3 id="content_division">Margin</h3>
+            <p>A propriedade "Margin" é responsável por determinar a distância ao redor de um elemento. Muito cuidado para não confundí-la com "padding", já que esta
+                diz respeito à distância entre a borda e o elemento. Assim como a padding, podemos mudar todas as direções da Margin</p>
+            <p> Observe a mesma estrofe com estas configurações de Margin em seu background (Preste atenção nas distâncias entre a estrofe e a imagem, tal qual aos limites da tela e ao rodapé).
+            </p>
+            <img src="../images/margin_e.png" alt="Background_e.png"> 
+
+            <p id="margin_ex"> No mundo virtual, o CSS é o herói,<br>
+                Com estilos e cores, ele dá brilho, <br>
+                Das margens ao posicionamento, <br>
+                Deixa o layout com encantamento.</p>
+           
 
         </section>
 

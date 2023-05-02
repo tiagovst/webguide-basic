@@ -8,6 +8,7 @@
     --top-font-color: #2bd899;
 } */
 
+
 * {
     box-sizing: border-box;
 }
@@ -73,6 +74,12 @@ p {
 #content {
     width: 95%;
     margin: auto;
+}
+
+#content_division{
+    border-top-width: 5px;
+    border-top-style: ridge;
+    padding-top: 20px;
 }
 
 main {
@@ -155,4 +162,61 @@ figcaption a{
 #colaborador a:hover{
     color: #2bd899;
     font-weight: bolder;
+}
+
+#ex_fonte_cor{
+    font-family: 'Courier New';
+    font-size: xx-large;
+    font-style: italic;
+    color: #182527;
+}
+
+#border_example{
+
+    border-style: groove;
+    border-width: 5px;
+    border-color: #182527;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+
+}
+
+#background_ex{
+    background-color: #41737a;
+    background-position: unset;
+    background-attachment: fixed;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#padding_ex{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    background-color: #41737a;
+    background-position: unset;
+    background-attachment: fixed;
+    width: fit-content;
+    border-radius: 10px;
+
+}
+
+
+#margin_ex{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+
+    background-color: #41737a;
+    background-position: unset;
+    background-attachment: fixed;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+
 }
