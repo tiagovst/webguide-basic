@@ -35,16 +35,16 @@
                         outras tecnologias, como CSS (Cascading Style Sheets) e JavaScript, para criar páginas web interativas e 
                         visualmente atraentes.</p>
                     <h2>Tag head</h2>
-                    <p>A tag <xmp><head></head></xmp> é usada para incluir informações sobre o documento HTML que não são exibidas na 
+                    <p>A tag: <xmp><head></head></xmp> é usada para incluir informações sobre o documento HTML que não são exibidas na 
                         página da web. Essas informações podem incluir o título da página, a codificação de caracteres, os estilos CSS
-                        e os scripts JavaScript. A tag <xmp><head></head></xmp> deve estar localizada antes da tag <xmp><body> </xmp>
+                        e os scripts JavaScript. A tag <xmp><head></head></xmp> deve estar localizada antes da tag <xmp><body></xmp>
                         no documento HTML.</p>
                         <h3>
                             Exemplo:
                         </h3>
                         <img src="../images/Captura de tela de 2023-05-01 16-29-13.png" width="800"/>
                         <h2>Tag Body</h2>
-                        <p>A tag <xmp><body> </xmp>é usada para marcar o conteúdo principal da página da web. Tudo o que é adicionado
+                        <p>A tag: <xmp><body> </xmp>é usada para marcar o conteúdo principal da página da web. Tudo o que é adicionado
                              dentro da tag <xmp><body> </xmp>é exibido na página da web.
                         </p>
                         <h3>
@@ -53,13 +53,17 @@
                         <img src="../images/Captura de tela de 2023-05-01 16-29-37.png" width="800"/>
                         <h2>Tags do tipo heading</h2>
                         <p>As tags de título tipo heading são usadas para especificar títulos e subtítulos na página da web. Existem seis 
-                            níveis de títulos em HTML, variando de <xmp><h1> a <h6></xmp> O h1 é usado para o título principal da página, 
+                            níveis de títulos em HTML, variando de <xmp><h1> a <h6></xmp>. O h1 é usado para o título principal da página, 
                                 enquanto os níveis subsequentes são usados para subtítulos e títulos secundários.</p>
                         <h3>
                             Exemplo:
                         </h3>
-                        <img src="../images/Captura de tela de 2023-05-01 16-49-46.png" width="800"/>  
-
+                        <img src="../images/Captura de tela de 2023-05-01 16-49-46.png" width="800"/>
+                        <div id="titleExample"> 
+                            <h2>Exemplo h2</h2>
+                            <h3>Exemplo h3</h3>
+                            <h5>Exemplo h5</h5> 
+                        </div>
                         <h2>Tag de título</h2>
                         <p>As tags de título em HTML são usadas para especificar o título da página da web.
                              A tag de título deve estar localizada dentro da seção <xmp><head></head></xmp> do documento HTML.
@@ -101,15 +105,86 @@
                         <h2>Listas</h2>
                         <p>As tags de lista são usadas para criar listas de itens em uma página da web. Existem dois
                              tipos de listas: listas não ordenadas e listas ordenadas.</p>
-                        <h3>Exemplo de lista ordenada:</h3>
-                        <img src="../images/Captura de tela de 2023-05-01 17-32-52.png" width="800"/>
                         <h3>Exemplo de lista não ordenada:</h3>
+                        <img src="../images/Captura de tela de 2023-05-01 17-32-52.png" width="800"/>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        <h3>Exemplo de lista ordenada:</h3>
                         <img src="../images/Captura de tela de 2023-05-01 17-34-28.png" width="800"/>
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
 
                         <h2>Tabelas</h2>
-                        <p>A tag de tabela é usada para criar tabelas em uma página da web. As tabelas são compostas por linhas <xmp>(<tr>) e células (<td>)</xmp></p>
+                        <p>A tag de tabela é usada para criar tabelas em uma página da web. As tabelas são compostas por 
+                            linhas <xmp>(<tr>)</xmp> e células <xmp>(<td>)</xmp>. Quando desejar que uma célula seja um
+                            título na tabela, deve usar <xmp><th></xmp>.</p>
                         <h3>Exemplo:</h3>   
-                        <img src="../images/Captura de tela de 2023-05-01 17-42-43.png" width="800"/>                    
+                        <img src="../images/tabela-image.png" width="500"/>  
+                        
+                        <table>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Email</th>
+                            </tr>
+                            <tr>
+                                <td>João</td>
+                                <td>joao@example.com</td>
+                            </tr>
+                        </table>
+                        <p class="observacao">Usei um pouquinho de css nessa tabela só pra ficar mais bonito</p>
+
+                        <h2>Tags de formatação de texto</h2>
+                        <p>Existem algumas tags em HTML que nos permitem modificar a maneira que o texto será 
+                            apresentado, como em negrito ou itálico.
+                        </p>
+                        <h3>Exemplo:</h3>
+                        <img src="../images/formatacao-de-texto.png" alt="imagem formatação" width="800">
+
+                        <p>Podemos tornar o texto <strong>mais forte</strong>, deixá-lo em 
+                            <b>negrito</b>, em <i>itálico</i>; podemos <em>enfatizá-lo</em>, 
+                            deixar <small>pequeno</small> ou <big>grande</big>.</p> 
+                        <p>
+                            Existem ainda formas para tornar o texto <sub>subescrito</sub>,
+                            <sup>suprescrito</sup> e até com aquele <del>risco no meio</del>.
+                        </p>
+
+                        <h2>Tags de citação</h2>
+                        <p>Podemos fazer uma citação longa (um bloco de citação), ou uma citação curta 
+                            (como as de apenas uma linha)
+                        </p>
+                        <h3>Exemplo blockquote:</h3>
+                        <img src="../images/blockquote.png" alt="blockquote image" width="800">
+                        <blockquote>"Do I need to be liked? Absolutely not. I like to be liked. 
+                            I enjoy being liked. I have to be liked. But it's not like a 
+                            compulsive need to be liked. Like my need to be praised." 
+                            - Michael Scott from 'The Office (U.S.)'
+                        </blockquote>
+
+                        <h3>Exemplo citação simples (q):</h3>
+                        <img src="../images/q-quote.png" alt="imagem citação simples" width="800">
+                        <p>Here's a quote from the character Michael Scott from the tv series
+                            'The Office':<q> I'm not superstitious, but I am a little stitious.</q>
+                        </p>
+
+                        <h2>Links</h2>
+                        <p>Ao clicar em um link você pode acessar outra página ou documento.
+                            Em HTML, qualquer elemento pode ser clicável, um link, não precisa
+                            ser necessariamente um texto. Um link pode ser uma imagem, por exemplo.
+                        </p>
+                        <p>
+                            A tag:<xmp><a></a></xmp>  é responsável por definir um link. Usamos o atributo
+                            "href" para indicar o link destino, o que queremos acessar.
+                        </p>
+                        <h3>Exemplo:</h3>
+                        <img src="../images/link-image.png" alt="link image" width="600">
+                        <p><a href="https://www.google.com">Google</a></p>
+                        
                 </article>
         </section>         
     </main>
