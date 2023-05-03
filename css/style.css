@@ -220,3 +220,27 @@ figcaption a{
     padding: 10px;
 
 }
+
+xmp{
+    display: inline-block;
+}
+
+#titleExample{
+    text-align: center;
+}
+
+.observacao{
+    font-size: smaller;
+}
+
+table{
+    margin: 20px;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
